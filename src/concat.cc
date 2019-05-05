@@ -2,7 +2,7 @@
  * @Author: saber2pr 
  * @Date: 2019-05-05 20:25:43 
  * @Last Modified by: saber2pr
- * @Last Modified time: 2019-05-05 22:10:09
+ * @Last Modified time: 2019-05-05 22:51:28
  */
 #if !defined(XXXCONCAT)
 #define XXXCONCAT
@@ -27,7 +27,7 @@ void Concat(const FunctionCallbackInfo<Value> &args)
   for (int i = 0; i < args.Length(); i++)
   {
     // Local<string>转为std::string，然后拼接
-    result.append(Utils::toStdString(isolate, args[i]));
+    result.append(Utils::toStdString(args[i]));
   };
 
   // std::string转为char*类型，返回给回调函数

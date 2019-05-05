@@ -2,7 +2,7 @@
  * @Author: saber2pr 
  * @Date: 2019-05-05 21:50:01 
  * @Last Modified by: saber2pr
- * @Last Modified time: 2019-05-05 22:15:03
+ * @Last Modified time: 2019-05-05 22:52:31
  */
 const concat = require('./build/Release/concat');
 
