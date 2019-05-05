@@ -4,6 +4,10 @@
 
 [官方文档](http://nodejs.cn/api/addons.html)
 
+```bash
+git clone https://github.com/Saber2pr/node-cpp-helloworld.git
+```
+
 # 编译步骤
 
 1. 安装 node-gyp 编译工具
