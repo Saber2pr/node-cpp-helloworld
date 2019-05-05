@@ -14,7 +14,7 @@ git clone https://github.com/Saber2pr/node-cpp-helloworld.git
 
 ```bash
 # 安装node-gyp编译工具
-npm install
+sudo npm install
 ```
 
 2. 生成 Makefile（在 Windows 上是 vcxproj 文件）
