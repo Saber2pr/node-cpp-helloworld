@@ -36,6 +36,24 @@ npm run build
 npm test
 ```
 
+# 可以干什么
+
+可以做 javascript 不能完成的任务。。。
+
+例如
+
+1. 文件读写
+
+2. 多线程处理
+
+3. Socket
+
+4. 调用系统 API
+
+5. 高性能场景
+
+...
+
 # Notice
 
 windows 下需要 vc++工具链
