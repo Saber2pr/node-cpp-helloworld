@@ -1,0 +1,16 @@
+{
+  "name": "node-cpp-helloworld",
+  "version": "1.0.0",
+  "description": "> 一起来为 V8 编写 C++插件吧！",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js",
+    "config": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^4.0.0"
+  }
+}
