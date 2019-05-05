@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "addon",
-      "sources": [ "hello.cc" ]
+      "target_name": "concat",
+      "sources": [ "./src/concat.cc" ]
     }
   ]
 }

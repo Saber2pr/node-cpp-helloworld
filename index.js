@@ -1,3 +1,11 @@
-const addon = require('./build/Release/addon');
+/*
+ * @Author: saber2pr 
+ * @Date: 2019-05-05 21:50:01 
+ * @Last Modified by: saber2pr
+ * @Last Modified time: 2019-05-05 22:15:03
+ */
+const concat = require('./build/Release/concat');
 
-console.log(addon.hello());
+console.log(concat(1, 2, 3));
+console.log(concat('a', 'b'));
+console.log(concat('a', 'b', 'c'));
